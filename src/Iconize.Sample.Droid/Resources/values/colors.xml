@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2c3e50</color>
+    <color name="colorPrimaryDark">#1B3147</color>
+    <color name="colorAccent">#3498db</color>
+
+    <color name="googleBackground">#dd4b39</color>
+    <color name="twitterBackground">#55acee</color>
+    <color name="facebookBackground">#3b5998</color>
+    <color name="pinterestBackground">#cb2027</color>
+    <color name="linkedinBackground">#007bb6</color>
+    <color name="watsappBackground">#42aa42</color>
+    <color name="githubBackground">#444444</color>
+</resources>

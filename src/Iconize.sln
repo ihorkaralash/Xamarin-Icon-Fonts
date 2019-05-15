@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Iconize", "Plugin.Iconize\Plugin.Iconize.csproj", "{6F806795-562F-4696-891D-DE199122C03B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plugin.Iconize.Droid", "Plugin.Iconize.Droid\Plugin.Iconize.Droid.csproj", "{EB8546E4-5AC5-4528-A1D1-FF35777967C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{3EF85D27-132A-445C-9038-83C3AC686BBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iconize.Sample.Droid", "Iconize.Sample.Droid\Iconize.Sample.Droid.csproj", "{6ACAEFF5-56EF-4CD4-B7DC-8C83EDA1306B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F806795-562F-4696-891D-DE199122C03B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F806795-562F-4696-891D-DE199122C03B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F806795-562F-4696-891D-DE199122C03B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F806795-562F-4696-891D-DE199122C03B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8546E4-5AC5-4528-A1D1-FF35777967C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8546E4-5AC5-4528-A1D1-FF35777967C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8546E4-5AC5-4528-A1D1-FF35777967C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8546E4-5AC5-4528-A1D1-FF35777967C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACAEFF5-56EF-4CD4-B7DC-8C83EDA1306B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ACAEFF5-56EF-4CD4-B7DC-8C83EDA1306B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ACAEFF5-56EF-4CD4-B7DC-8C83EDA1306B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6ACAEFF5-56EF-4CD4-B7DC-8C83EDA1306B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ACAEFF5-56EF-4CD4-B7DC-8C83EDA1306B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ACAEFF5-56EF-4CD4-B7DC-8C83EDA1306B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6ACAEFF5-56EF-4CD4-B7DC-8C83EDA1306B} = {3EF85D27-132A-445C-9038-83C3AC686BBA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B038E9E-5522-4289-9935-D7964B59B82B}
+	EndGlobalSection
+EndGlobal

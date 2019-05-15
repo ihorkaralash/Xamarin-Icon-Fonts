@@ -1,0 +1,9 @@
+.vs/
+src/Iconize.Sample.Droid/bin/
+src/Iconize.Sample.Droid/obj/
+src/Plugin.Iconize.Droid/bin/
+src/Plugin.Iconize.Droid/obj/
+src/Plugin.Iconize/bin/
+src/Plugin.Iconize/obj/
+src/Iconize.Sample.Droid/Iconize.Sample.Droid.csproj.user
+src/Plugin.Iconize.Droid/Plugin.Iconize.Droid.csproj.user
