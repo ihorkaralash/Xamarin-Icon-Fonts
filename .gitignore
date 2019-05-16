@@ -7,3 +7,7 @@ src/Plugin.Iconize/bin/
 src/Plugin.Iconize/obj/
 src/Iconize.Sample.Droid/Iconize.Sample.Droid.csproj.user
 src/Plugin.Iconize.Droid/Plugin.Iconize.Droid.csproj.user
+src/Plugin.Iconize.iOS/bin/
+src/Plugin.Iconize.iOS/obj/
+src/Iconize.Sample.iOS/obj/
+src/Plugin.Iconize.iOS/Plugin.Iconize.iOS.csproj.user

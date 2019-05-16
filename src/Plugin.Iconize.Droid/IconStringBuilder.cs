@@ -6,7 +6,7 @@ namespace Plugin.Iconize.Droid
 {
     public class IconStringBuilder : SpannableStringBuilder
     {
-        private IIconText _iconText;
+        private readonly IIconText _iconText;
 
         public IconStringBuilder(IIconText iconText)
         {

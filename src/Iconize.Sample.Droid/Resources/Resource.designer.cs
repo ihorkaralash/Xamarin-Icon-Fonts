@@ -41,8 +41,6 @@ namespace Iconize.Sample.Droid
 			global::Plugin.Iconize.Droid.Resource.Attribute.Icon = global::Iconize.Sample.Droid.Resource.Attribute.Icon;
 			global::Plugin.Iconize.Droid.Resource.Attribute.IconColor = global::Iconize.Sample.Droid.Resource.Attribute.IconColor;
 			global::Plugin.Iconize.Droid.Resource.Attribute.IconSize = global::Iconize.Sample.Droid.Resource.Attribute.IconSize;
-			global::Plugin.Iconize.Droid.Resource.Attribute.IconsColor = global::Iconize.Sample.Droid.Resource.Attribute.IconsColor;
-			global::Plugin.Iconize.Droid.Resource.Attribute.IconsSize = global::Iconize.Sample.Droid.Resource.Attribute.IconsSize;
 			global::Plugin.Iconize.Droid.Resource.Attribute.actionBarDivider = global::Iconize.Sample.Droid.Resource.Attribute.actionBarDivider;
 			global::Plugin.Iconize.Droid.Resource.Attribute.actionBarItemBackground = global::Iconize.Sample.Droid.Resource.Attribute.actionBarItemBackground;
 			global::Plugin.Iconize.Droid.Resource.Attribute.actionBarPopupTheme = global::Iconize.Sample.Droid.Resource.Attribute.actionBarPopupTheme;
@@ -1390,9 +1388,6 @@ namespace Iconize.Sample.Droid
 			global::Plugin.Iconize.Droid.Resource.Styleable.IconImage_Icon = global::Iconize.Sample.Droid.Resource.Styleable.IconImage_Icon;
 			global::Plugin.Iconize.Droid.Resource.Styleable.IconImage_IconColor = global::Iconize.Sample.Droid.Resource.Styleable.IconImage_IconColor;
 			global::Plugin.Iconize.Droid.Resource.Styleable.IconImage_IconSize = global::Iconize.Sample.Droid.Resource.Styleable.IconImage_IconSize;
-			global::Plugin.Iconize.Droid.Resource.Styleable.IconLabel = global::Iconize.Sample.Droid.Resource.Styleable.IconLabel;
-			global::Plugin.Iconize.Droid.Resource.Styleable.IconLabel_IconsColor = global::Iconize.Sample.Droid.Resource.Styleable.IconLabel_IconsColor;
-			global::Plugin.Iconize.Droid.Resource.Styleable.IconLabel_IconsSize = global::Iconize.Sample.Droid.Resource.Styleable.IconLabel_IconsSize;
 			global::Plugin.Iconize.Droid.Resource.Styleable.LinearLayoutCompat = global::Iconize.Sample.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Plugin.Iconize.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::Iconize.Sample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Plugin.Iconize.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::Iconize.Sample.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -1648,12 +1643,6 @@ namespace Iconize.Sample.Droid
 			
 			// aapt resource value: 0x7f01015c
 			public const int IconSize = 2130772316;
-			
-			// aapt resource value: 0x7f01015d
-			public const int IconsColor = 2130772317;
-			
-			// aapt resource value: 0x7f01015e
-			public const int IconsSize = 2130772318;
 			
 			// aapt resource value: 0x7f010052
 			public const int actionBarDivider = 2130772050;
@@ -7193,16 +7182,6 @@ namespace Iconize.Sample.Droid
 			
 			// aapt resource value: 2
 			public const int IconImage_IconSize = 2;
-			
-			public static int[] IconLabel = new int[] {
-					2130772317,
-					2130772318};
-			
-			// aapt resource value: 0
-			public const int IconLabel_IconsColor = 0;
-			
-			// aapt resource value: 1
-			public const int IconLabel_IconsSize = 1;
 			
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,

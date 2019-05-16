@@ -4,7 +4,6 @@ using Android.Graphics;
 using Android.OS;
 using Android.Support.V7.App;
 using Plugin.Iconize;
-using Plugin.Iconize.Droid;
 
 namespace Iconize.Sample.Droid
 {

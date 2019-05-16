@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>UIAppFonts</key>
+    <array>
+      <string>iconize-entypoplus.ttf</string>
+      <string>iconize-fontawesome-regular.ttf</string>
+      <string>iconize-fontawesome-solid.ttf</string>
+      <string>iconize-fontawesome-brands.ttf</string>
+      <string>iconize-ionicons.ttf</string>
+      <string>iconize-jam-icons.ttf</string>
+      <string>iconize-material.ttf</string>
+      <string>iconize-meteocons.ttf</string>
+      <string>iconize-simplelineicons.ttf</string>
+      <string>iconize-typicons.ttf</string>
+      <string>iconize-weathericons.ttf</string>
+    </array>
+  </dict>
+</plist>

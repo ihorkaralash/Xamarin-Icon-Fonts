@@ -85,12 +85,6 @@ namespace Plugin.Iconize.Droid
 			// aapt resource value: 0x7f010101
 			public static int IconSize = 2130772225;
 			
-			// aapt resource value: 0x7f010102
-			public static int IconsColor = 2130772226;
-			
-			// aapt resource value: 0x7f010103
-			public static int IconsSize = 2130772227;
-			
 			// aapt resource value: 0x7f010049
 			public static int actionBarDivider = 2130772041;
 			
@@ -4460,16 +4454,6 @@ namespace Plugin.Iconize.Droid
 			
 			// aapt resource value: 2
 			public static int IconImage_IconSize = 2;
-			
-			public static int[] IconLabel = new int[] {
-					2130772226,
-					2130772227};
-			
-			// aapt resource value: 0
-			public static int IconLabel_IconsColor = 0;
-			
-			// aapt resource value: 1
-			public static int IconLabel_IconsSize = 1;
 			
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
