@@ -86,7 +86,7 @@ namespace Plugin.Iconize
                 }
             }
 
-            return stringBuilder;
+            return stringBuilder.Text;
         }
     }
 }

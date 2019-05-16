@@ -54,9 +54,6 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Info.plist">
-      <SubType>Designer</SubType>
-    </None>
     <BundleResource Include="Resources\iconize-entypoplus.ttf" />
     <BundleResource Include="Resources\iconize-fontawesome-brands.ttf" />
     <BundleResource Include="Resources\iconize-fontawesome-regular.ttf" />

@@ -1,23 +1,188 @@
-﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IVC-gh-M2U">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ryu-Yf-OWz">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="517"/>
+                                        <subviews>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g7G-LO-Myl" customClass="IconImage">
+                                                <rect key="frame" x="162.5" y="50" width="50" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="ErE-vK-4AP"/>
+                                                    <constraint firstAttribute="height" constant="50" id="cjf-oc-9ce"/>
+                                                </constraints>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="string" keyPath="Icon" value="fab-apple"/>
+                                                    <userDefinedRuntimeAttribute type="color" keyPath="IconColor">
+                                                        <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oFi-ej-bu0" customClass="IconButton">
+                                                <rect key="frame" x="51" y="120" width="273" height="44"/>
+                                                <color key="backgroundColor" red="0.8666666666666667" green="0.29411764705882354" blue="0.22352941176470587" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                                                <state key="normal" title="{fab-google-plus-g} Google"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTM-UC-Zzm" customClass="IconButton">
+                                                <rect key="frame" x="88" y="172" width="199" height="44"/>
+                                                <color key="backgroundColor" red="0.33333333333333331" green="0.67450980392156867" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                                                <state key="normal" title="{fab-twitter} Twitter"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRI-KH-80e" customClass="IconButton">
+                                                <rect key="frame" x="54.5" y="224" width="266" height="44"/>
+                                                <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                                                <state key="normal" title="{fab-facebook-f} Facebook"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="254" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fue-TT-hmI" customClass="IconButton">
+                                                <rect key="frame" x="68.5" y="276" width="238" height="44"/>
+                                                <color key="backgroundColor" red="0.79607843137254897" green="0.12549019607843137" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                                                <state key="normal" title="{fab-pinterest} Pinterest"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SjT-hg-e0E" customClass="IconButton">
+                                                <rect key="frame" x="63" y="328" width="249" height="44"/>
+                                                <color key="backgroundColor" red="0.0" green="0.4823529411764706" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                                                <state key="normal" title="{fab-linkedin-in} Linkedin"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="255" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mv0-a6-Qbu" customClass="IconButton">
+                                                <rect key="frame" x="69.5" y="380" width="236" height="44"/>
+                                                <color key="backgroundColor" red="0.25882352941176467" green="0.66666666666666663" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                                                <state key="normal" title="{fab-watsapp} Watsapp"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdf-2l-P1W" customClass="IconButton">
+                                                <rect key="frame" x="87.5" y="432" width="200" height="44"/>
+                                                <color key="backgroundColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
+                                                <state key="normal" title="{fab-github} Github"/>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="3"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on any button above {fas-level-up-alt}" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwh-Js-fmr" customClass="CustomIconLabel">
+                                                <rect key="frame" x="21" y="496" width="333.5" height="21"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstItem="fue-TT-hmI" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="73M-OT-gtr"/>
+                                            <constraint firstItem="XRI-KH-80e" firstAttribute="top" secondItem="KTM-UC-Zzm" secondAttribute="bottom" constant="8" id="A7U-pS-6v7"/>
+                                            <constraint firstItem="Gwh-Js-fmr" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="BBk-gY-Zim"/>
+                                            <constraint firstItem="oFi-ej-bu0" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="Cov-ap-uck"/>
+                                            <constraint firstAttribute="bottom" secondItem="Gwh-Js-fmr" secondAttribute="bottom" id="G8Z-Rc-6OT"/>
+                                            <constraint firstItem="Gwh-Js-fmr" firstAttribute="top" secondItem="Bdf-2l-P1W" secondAttribute="bottom" constant="20" id="Lqs-a1-btu"/>
+                                            <constraint firstItem="mv0-a6-Qbu" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="Nmb-uE-FKv"/>
+                                            <constraint firstItem="XRI-KH-80e" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="SVk-hf-hq5"/>
+                                            <constraint firstItem="Bdf-2l-P1W" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="WcL-fV-67F"/>
+                                            <constraint firstItem="g7G-LO-Myl" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="bua-rn-3M8"/>
+                                            <constraint firstItem="oFi-ej-bu0" firstAttribute="top" secondItem="g7G-LO-Myl" secondAttribute="bottom" constant="20" id="eoQ-eu-ZYu"/>
+                                            <constraint firstItem="KTM-UC-Zzm" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="fB5-88-iSD"/>
+                                            <constraint firstItem="fue-TT-hmI" firstAttribute="top" secondItem="XRI-KH-80e" secondAttribute="bottom" constant="8" id="iRl-0I-BrJ"/>
+                                            <constraint firstItem="SjT-hg-e0E" firstAttribute="top" secondItem="fue-TT-hmI" secondAttribute="bottom" constant="8" id="oeI-5D-V0V"/>
+                                            <constraint firstItem="SjT-hg-e0E" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="oqv-EG-ASa"/>
+                                            <constraint firstItem="Bdf-2l-P1W" firstAttribute="top" secondItem="mv0-a6-Qbu" secondAttribute="bottom" constant="8" id="rXm-Fg-dyS"/>
+                                            <constraint firstItem="mv0-a6-Qbu" firstAttribute="top" secondItem="SjT-hg-e0E" secondAttribute="bottom" constant="8" id="vP2-Vo-zyL"/>
+                                            <constraint firstItem="KTM-UC-Zzm" firstAttribute="top" secondItem="oFi-ej-bu0" secondAttribute="bottom" constant="8" id="xYj-Uc-iL0"/>
+                                            <constraint firstItem="g7G-LO-Myl" firstAttribute="top" secondItem="ryu-Yf-OWz" secondAttribute="top" constant="50" id="xwl-lC-CWL"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="ryu-Yf-OWz" firstAttribute="centerX" secondItem="IVC-gh-M2U" secondAttribute="centerX" id="eqA-uo-nw9"/>
+                                    <constraint firstItem="ryu-Yf-OWz" firstAttribute="top" secondItem="IVC-gh-M2U" secondAttribute="top" id="f1O-mx-oJQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="ryu-Yf-OWz" secondAttribute="bottom" id="kEj-tB-lwy"/>
+                                    <constraint firstAttribute="trailing" secondItem="ryu-Yf-OWz" secondAttribute="trailing" id="sDH-fA-tVi"/>
+                                    <constraint firstItem="ryu-Yf-OWz" firstAttribute="leading" secondItem="IVC-gh-M2U" secondAttribute="leading" id="z66-ab-NVk"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="IVC-gh-M2U" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="O17-5j-Mr6"/>
+                            <constraint firstItem="IVC-gh-M2U" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Rtw-AA-gpl"/>
+                            <constraint firstItem="IVC-gh-M2U" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="hy6-zz-mn9"/>
+                            <constraint firstItem="IVC-gh-M2U" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iWc-tw-3hP"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="FacebookButton" destination="XRI-KH-80e" id="nfJ-TW-0Uv"/>
+                        <outlet property="GithubButton" destination="Bdf-2l-P1W" id="yMe-bZ-B2y"/>
+                        <outlet property="GoogleButton" destination="oFi-ej-bu0" id="yiV-Q3-5pE"/>
+                        <outlet property="Image" destination="g7G-LO-Myl" id="Xn4-V1-i9u"/>
+                        <outlet property="Label" destination="Gwh-Js-fmr" id="omZ-Xr-Shx"/>
+                        <outlet property="LinkedinButton" destination="SjT-hg-e0E" id="adc-yi-JAf"/>
+                        <outlet property="PinterestButton" destination="fue-TT-hmI" id="9ye-cz-n0B"/>
+                        <outlet property="TwitterButton" destination="KTM-UC-Zzm" id="OB9-eU-ueo"/>
+                        <outlet property="WatsappButton" destination="mv0-a6-Qbu" id="CKn-63-pwK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

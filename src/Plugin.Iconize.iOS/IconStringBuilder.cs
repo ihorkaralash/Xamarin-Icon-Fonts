@@ -12,6 +12,8 @@ namespace Plugin.Iconize.iOS
             _iconText = iconText;
         }
 
+        public NSAttributedString Text = new NSAttributedString();
+
         public void AppendText(string text)
         {
             var attrStr = new NSAttributedString(text, _iconText.Font, _iconText.TextColor);
@@ -25,6 +27,15 @@ namespace Plugin.Iconize.iOS
             var attrStr = new NSAttributedString($"{icon.Character}", font, _iconText.TextColor);
 
             Append(attrStr);
+        }
+
+        public override void Append(NSAttributedString attrString)
+        {
+            var str = new NSMutableAttributedString();
+            str.Append(Text);
+            str.Append(attrString);
+
+            Text = str;
         }
     }
 }
