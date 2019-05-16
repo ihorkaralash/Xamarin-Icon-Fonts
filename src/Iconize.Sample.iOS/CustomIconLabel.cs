@@ -8,6 +8,8 @@ namespace Iconize.Sample.iOS
     [Register("CustomIconLabel")]
     public class CustomIconLabel : IconLabel
     {
+        public UIColor IconColor { get; set; }
+
         public CustomIconLabel(IntPtr handle) : base(handle)
         {
 
@@ -22,7 +24,7 @@ namespace Iconize.Sample.iOS
         {
             var text = (NSMutableAttributedString)base.ParseIcons();
 
-            text.AddAttributes(new UIStringAttributes { ForegroundColor = UIColor.Red }, new NSRange(0, 1));
+            text.AddAttributes(new UIStringAttributes { ForegroundColor = IconColor }, new NSRange(0, 1));
 
             return text;
         }

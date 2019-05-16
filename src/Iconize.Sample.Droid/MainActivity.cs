@@ -32,8 +32,6 @@ namespace Iconize.Sample.Droid
 
         protected override void OnPause()
         {
-            base.OnPause();
-
             FindViewById(Resource.Id.GoogleButton).Click -= GoogleButtonClick;
             FindViewById(Resource.Id.TwitterButton).Click -= TwitterButtonClick;
             FindViewById(Resource.Id.FacebookButton).Click -= FacebookButtonClick;
@@ -41,6 +39,8 @@ namespace Iconize.Sample.Droid
             FindViewById(Resource.Id.LinkedinButton).Click -= LinkedinButtonClick;
             FindViewById(Resource.Id.WatsappButton).Click -= WatsappButtonClick;
             FindViewById(Resource.Id.GithubButton).Click -= GithubButtonClick;
+
+            base.OnPause();
         }
 
         private void GithubButtonClick(object sender, EventArgs e)
