@@ -67,7 +67,7 @@ namespace Plugin.Iconize
                 }
                 else
                 {
-                    stringBuilder.AppendText(match.Value);
+                    stringBuilder.AppendText("?");
                 }
 
                 var nextMatch = match.NextMatch();

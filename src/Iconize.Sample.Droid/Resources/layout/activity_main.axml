@@ -85,7 +85,7 @@
 				android:textSize="20dp"
 				android:textColor="@android:color/white"
 				android:backgroundTint="@color/watsappBackground"/>
-			<Plugin.Iconize.CustomIconButton
+			<Plugin.Iconize.IconButton
 				android:id="@+id/GithubButton"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
 				android:textSize="20dp"
 				android:textColor="@android:color/white"
 				android:backgroundTint="@color/githubBackground"/>
-			<Plugin.Iconize.IconLabel
+			<Plugin.Iconize.CustomIconLabel
 				android:id="@+id/Label"
 				android:layout_width="wrap_content"
 				android:layout_height="wrap_content"

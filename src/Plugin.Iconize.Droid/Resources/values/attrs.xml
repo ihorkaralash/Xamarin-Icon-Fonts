@@ -7,9 +7,4 @@
     <attr name="IconSize" format="float"/>
   </declare-styleable>
 
-  <declare-styleable name="IconLabel">
-    <attr name="IconsColor" format="color"/>
-    <attr name="IconsSize" format="dimension"/>
-  </declare-styleable>
-
 </resources>

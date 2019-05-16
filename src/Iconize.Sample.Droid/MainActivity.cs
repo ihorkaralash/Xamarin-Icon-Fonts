@@ -4,6 +4,7 @@ using Android.Graphics;
 using Android.OS;
 using Android.Support.V7.App;
 using Plugin.Iconize;
+using Plugin.Iconize.Droid;
 
 namespace Iconize.Sample.Droid
 {
@@ -47,42 +48,63 @@ namespace Iconize.Sample.Droid
         {
             FindViewById<IconImage>(Resource.Id.Image).Icon = "fab-github";
             FindViewById<IconImage>(Resource.Id.Image).IconColor = new Color(GetColor(Resource.Color.githubBackground));
+
+            FindViewById<CustomIconLabel>(Resource.Id.Label).IconColor = new Color(GetColor(Resource.Color.githubBackground));
+            FindViewById<CustomIconLabel>(Resource.Id.Label).Text = "{fab-github} Github button clicked";
         }
 
         private void WatsappButtonClick(object sender, EventArgs e)
         {
             FindViewById<IconImage>(Resource.Id.Image).Icon = "fab-whatsapp";
             FindViewById<IconImage>(Resource.Id.Image).IconColor = new Color(GetColor(Resource.Color.watsappBackground));
+
+            FindViewById<CustomIconLabel>(Resource.Id.Label).IconColor = new Color(GetColor(Resource.Color.watsappBackground));
+            FindViewById<CustomIconLabel>(Resource.Id.Label).Text = "{fab-whatsapp} Whatsapp button clicked";
         }
 
         private void LinkedinButtonClick(object sender, EventArgs e)
         {
             FindViewById<IconImage>(Resource.Id.Image).Icon = "fab-linkedin-in";
             FindViewById<IconImage>(Resource.Id.Image).IconColor = new Color(GetColor(Resource.Color.linkedinBackground));
+
+            FindViewById<CustomIconLabel>(Resource.Id.Label).IconColor = new Color(GetColor(Resource.Color.linkedinBackground));
+            FindViewById<CustomIconLabel>(Resource.Id.Label).Text = "{fab-linkedin-in} Linkedin button clicked";
         }
 
         private void PinterestButtonClick(object sender, EventArgs e)
         {
             FindViewById<IconImage>(Resource.Id.Image).Icon = "fab-pinterest";
             FindViewById<IconImage>(Resource.Id.Image).IconColor = new Color(GetColor(Resource.Color.pinterestBackground));
+
+            FindViewById<CustomIconLabel>(Resource.Id.Label).IconColor = new Color(GetColor(Resource.Color.pinterestBackground));
+            FindViewById<CustomIconLabel>(Resource.Id.Label).Text = "{fab-pinterest} Pinterest button clicked";
         }
 
         private void TwitterButtonClick(object sender, EventArgs e)
         {
             FindViewById<IconImage>(Resource.Id.Image).Icon = "fab-twitter";
             FindViewById<IconImage>(Resource.Id.Image).IconColor = new Color(GetColor(Resource.Color.twitterBackground));
+
+            FindViewById<CustomIconLabel>(Resource.Id.Label).IconColor = new Color(GetColor(Resource.Color.twitterBackground));
+            FindViewById<CustomIconLabel>(Resource.Id.Label).Text = "{fab-twitter} Twitter button clicked";
         }
 
         private void GoogleButtonClick(object sender, EventArgs e)
         {
             FindViewById<IconImage>(Resource.Id.Image).Icon = "fab-google-plus-g";
             FindViewById<IconImage>(Resource.Id.Image).IconColor = new Color(GetColor(Resource.Color.googleBackground));
+
+            FindViewById<CustomIconLabel>(Resource.Id.Label).IconColor = new Color(GetColor(Resource.Color.googleBackground));
+            FindViewById<CustomIconLabel>(Resource.Id.Label).Text = "{fab-google-plus-g} Google button clicked";
         }
 
         private void FacebookButtonClick(object sender, EventArgs e)
         {
             FindViewById<IconImage>(Resource.Id.Image).Icon = "fab-facebook-f";
             FindViewById<IconImage>(Resource.Id.Image).IconColor = new Color(GetColor(Resource.Color.facebookBackground));
+
+            FindViewById<CustomIconLabel>(Resource.Id.Label).IconColor = new Color(GetColor(Resource.Color.facebookBackground));
+            FindViewById<CustomIconLabel>(Resource.Id.Label).Text = "{fab-facebook-f} Facebook button clicked";
         }
     }
 }
