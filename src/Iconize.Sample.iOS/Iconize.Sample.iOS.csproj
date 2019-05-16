@@ -129,6 +129,7 @@
       <DependentUpon>ViewController.cs</DependentUpon>
     </Compile>
     <Compile Include="CustomIconLabel.cs" />
+    <Compile Include="ColorConstants.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Plugin.Iconize.iOS\Plugin.Iconize.iOS.csproj">

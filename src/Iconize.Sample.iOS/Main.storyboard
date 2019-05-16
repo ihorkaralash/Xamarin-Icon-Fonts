@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ryu-Yf-OWz">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="517"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="495"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="g7G-LO-Myl" customClass="IconImage">
                                                 <rect key="frame" x="162.5" y="50" width="50" height="50"/>
@@ -53,7 +53,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KTM-UC-Zzm" customClass="IconButton">
-                                                <rect key="frame" x="88" y="172" width="199" height="44"/>
+                                                <rect key="frame" x="88" y="169" width="199" height="44"/>
                                                 <color key="backgroundColor" red="0.33333333333333331" green="0.67450980392156867" blue="0.93333333333333335" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
@@ -65,7 +65,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="253" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XRI-KH-80e" customClass="IconButton">
-                                                <rect key="frame" x="54.5" y="224" width="266" height="44"/>
+                                                <rect key="frame" x="54.5" y="218" width="266" height="44"/>
                                                 <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
@@ -77,7 +77,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="254" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fue-TT-hmI" customClass="IconButton">
-                                                <rect key="frame" x="68.5" y="276" width="238" height="44"/>
+                                                <rect key="frame" x="68.5" y="267" width="238" height="44"/>
                                                 <color key="backgroundColor" red="0.79607843137254897" green="0.12549019607843137" blue="0.15294117647058825" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
@@ -89,7 +89,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="252" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SjT-hg-e0E" customClass="IconButton">
-                                                <rect key="frame" x="63" y="328" width="249" height="44"/>
+                                                <rect key="frame" x="63" y="316" width="249" height="44"/>
                                                 <color key="backgroundColor" red="0.0" green="0.4823529411764706" blue="0.71372549019607845" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
@@ -101,11 +101,11 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="255" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mv0-a6-Qbu" customClass="IconButton">
-                                                <rect key="frame" x="69.5" y="380" width="236" height="44"/>
+                                                <rect key="frame" x="63.5" y="365" width="248" height="44"/>
                                                 <color key="backgroundColor" red="0.25882352941176467" green="0.66666666666666663" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
-                                                <state key="normal" title="{fab-watsapp} Watsapp"/>
+                                                <state key="normal" title="{fab-whatsapp} Watsapp"/>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                         <integer key="value" value="3"/>
@@ -113,7 +113,7 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bdf-2l-P1W" customClass="IconButton">
-                                                <rect key="frame" x="87.5" y="432" width="200" height="44"/>
+                                                <rect key="frame" x="87.5" y="414" width="200" height="44"/>
                                                 <color key="backgroundColor" red="0.26666666666666666" green="0.26666666666666666" blue="0.26666666666666666" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <inset key="contentEdgeInsets" minX="15" minY="10" maxX="15" maxY="10"/>
@@ -125,8 +125,8 @@
                                                 </userDefinedRuntimeAttributes>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Click on any button above {fas-level-up-alt}" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gwh-Js-fmr" customClass="CustomIconLabel">
-                                                <rect key="frame" x="21" y="496" width="333.5" height="21"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="46.5" y="478" width="282" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -134,7 +134,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
                                             <constraint firstItem="fue-TT-hmI" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="73M-OT-gtr"/>
-                                            <constraint firstItem="XRI-KH-80e" firstAttribute="top" secondItem="KTM-UC-Zzm" secondAttribute="bottom" constant="8" id="A7U-pS-6v7"/>
+                                            <constraint firstItem="XRI-KH-80e" firstAttribute="top" secondItem="KTM-UC-Zzm" secondAttribute="bottom" constant="5" id="A7U-pS-6v7"/>
                                             <constraint firstItem="Gwh-Js-fmr" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="BBk-gY-Zim"/>
                                             <constraint firstItem="oFi-ej-bu0" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="Cov-ap-uck"/>
                                             <constraint firstAttribute="bottom" secondItem="Gwh-Js-fmr" secondAttribute="bottom" id="G8Z-Rc-6OT"/>
@@ -145,12 +145,12 @@
                                             <constraint firstItem="g7G-LO-Myl" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="bua-rn-3M8"/>
                                             <constraint firstItem="oFi-ej-bu0" firstAttribute="top" secondItem="g7G-LO-Myl" secondAttribute="bottom" constant="20" id="eoQ-eu-ZYu"/>
                                             <constraint firstItem="KTM-UC-Zzm" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="fB5-88-iSD"/>
-                                            <constraint firstItem="fue-TT-hmI" firstAttribute="top" secondItem="XRI-KH-80e" secondAttribute="bottom" constant="8" id="iRl-0I-BrJ"/>
-                                            <constraint firstItem="SjT-hg-e0E" firstAttribute="top" secondItem="fue-TT-hmI" secondAttribute="bottom" constant="8" id="oeI-5D-V0V"/>
+                                            <constraint firstItem="fue-TT-hmI" firstAttribute="top" secondItem="XRI-KH-80e" secondAttribute="bottom" constant="5" id="iRl-0I-BrJ"/>
+                                            <constraint firstItem="SjT-hg-e0E" firstAttribute="top" secondItem="fue-TT-hmI" secondAttribute="bottom" constant="5" id="oeI-5D-V0V"/>
                                             <constraint firstItem="SjT-hg-e0E" firstAttribute="centerX" secondItem="ryu-Yf-OWz" secondAttribute="centerX" id="oqv-EG-ASa"/>
-                                            <constraint firstItem="Bdf-2l-P1W" firstAttribute="top" secondItem="mv0-a6-Qbu" secondAttribute="bottom" constant="8" id="rXm-Fg-dyS"/>
-                                            <constraint firstItem="mv0-a6-Qbu" firstAttribute="top" secondItem="SjT-hg-e0E" secondAttribute="bottom" constant="8" id="vP2-Vo-zyL"/>
-                                            <constraint firstItem="KTM-UC-Zzm" firstAttribute="top" secondItem="oFi-ej-bu0" secondAttribute="bottom" constant="8" id="xYj-Uc-iL0"/>
+                                            <constraint firstItem="Bdf-2l-P1W" firstAttribute="top" secondItem="mv0-a6-Qbu" secondAttribute="bottom" constant="5" id="rXm-Fg-dyS"/>
+                                            <constraint firstItem="mv0-a6-Qbu" firstAttribute="top" secondItem="SjT-hg-e0E" secondAttribute="bottom" constant="5" id="vP2-Vo-zyL"/>
+                                            <constraint firstItem="KTM-UC-Zzm" firstAttribute="top" secondItem="oFi-ej-bu0" secondAttribute="bottom" constant="5" id="xYj-Uc-iL0"/>
                                             <constraint firstItem="g7G-LO-Myl" firstAttribute="top" secondItem="ryu-Yf-OWz" secondAttribute="top" constant="50" id="xwl-lC-CWL"/>
                                         </constraints>
                                     </view>
