@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<resources>
+
+  <declare-styleable name="IconImage">
+    <attr name="Icon" format="string"/>
+    <attr name="IconColor" format="color"/>
+    <attr name="IconSize" format="float"/>
+  </declare-styleable>
+
+</resources>
