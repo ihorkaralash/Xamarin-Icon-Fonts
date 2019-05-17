@@ -55,7 +55,12 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <Import Project="..\Plugin.IconFonts.Shared\Plugin.IconFonts.Shared.projitems" Label="Shared" Condition="Exists('..\Plugin.IconFonts.Shared\Plugin.IconFonts.Shared.projitems')" />
+  <ItemGroup>
+    <ProjectReference Include="..\Plugin.IconFonts\Plugin.IconFonts.csproj">
+      <Project>{799b2cf3-50dc-49bf-a9a7-df89646e08ae}</Project>
+      <Name>Plugin.IconFonts</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets" Condition="Exists('..\packages\NuGet.Build.Packaging.0.2.0\build\NuGet.Build.Packaging.targets')" />
 </Project>
