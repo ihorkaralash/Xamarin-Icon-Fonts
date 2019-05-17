@@ -11,3 +11,6 @@ src/Plugin.Iconize.iOS/bin/
 src/Plugin.Iconize.iOS/obj/
 src/Iconize.Sample.iOS/obj/
 src/Plugin.Iconize.iOS/Plugin.Iconize.iOS.csproj.user
+src/Plugin.IconFonts/Plugin.IconFonts.iOS/obj/
+src/Plugin.IconFonts/Plugin.IconFonts.Android/obj/
+src/Plugin.IconFonts/packages/
