@@ -2,7 +2,7 @@
 using Android.Graphics;
 using Android.Text;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.Droid
 {
     public interface IIconText
     {

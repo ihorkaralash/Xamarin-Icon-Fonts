@@ -6,9 +6,8 @@ using Android.Runtime;
 using Android.Text;
 using Android.Util;
 using Android.Widget;
-using Plugin.Iconize.Droid;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.Droid
 {
     [Register("Plugin.IconFonts.IconLabel")]
     public class IconLabel : TextView, IIconText

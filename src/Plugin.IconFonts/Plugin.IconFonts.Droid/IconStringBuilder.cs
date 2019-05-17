@@ -1,9 +1,8 @@
 ﻿using Android.App;
 using Android.Text;
 using Android.Text.Style;
-using Plugin.Iconize.Droid;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.Droid
 {
     public class IconStringBuilder : SpannableStringBuilder
     {

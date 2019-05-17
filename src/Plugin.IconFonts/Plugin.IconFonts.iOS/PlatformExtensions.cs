@@ -5,7 +5,7 @@ using CoreText;
 using Foundation;
 using UIKit;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.iOS
 {
     /// <summary>
     /// Defines the <see cref="PlatformExtensions" /> extensions.

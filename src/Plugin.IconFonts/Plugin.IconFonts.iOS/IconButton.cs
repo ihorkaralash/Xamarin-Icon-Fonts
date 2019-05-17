@@ -3,7 +3,7 @@ using System.Text.RegularExpressions;
 using Foundation;
 using UIKit;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.iOS
 {
     [Register("IconButton")]
     public class IconButton : UIButton, IIconText

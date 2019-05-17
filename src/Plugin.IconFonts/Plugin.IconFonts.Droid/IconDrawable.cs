@@ -9,7 +9,7 @@ using Android.Text;
 using Android.Util;
 using R = Android.Resource;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.Droid
 {
     /// <summary>
     /// Defines the <see cref="IconDrawable" /> drawable.

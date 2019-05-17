@@ -7,7 +7,7 @@ using Android.Graphics;
 using Android.Graphics.Drawables;
 using Android.Text;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.Droid
 {
     /// <summary>
     /// Defines the <see cref="PlatformExtensions" /> extensions.

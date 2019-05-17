@@ -3,7 +3,7 @@ using System.ComponentModel;
 using Foundation;
 using UIKit;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.iOS
 {
     [Register("IconImage")]
     [DesignTimeVisible(true)]

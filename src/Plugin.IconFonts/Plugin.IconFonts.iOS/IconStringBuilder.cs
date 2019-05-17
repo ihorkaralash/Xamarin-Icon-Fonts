@@ -1,7 +1,7 @@
 ﻿
 using Foundation;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.iOS
 {
     public class IconStringBuilder : NSMutableAttributedString
     {

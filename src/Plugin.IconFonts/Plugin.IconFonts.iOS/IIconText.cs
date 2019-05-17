@@ -1,7 +1,7 @@
 ﻿using Foundation;
 using UIKit;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.iOS
 {
     public interface IIconText
     {

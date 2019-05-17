@@ -2,7 +2,7 @@
 using Android.Text;
 using Android.Text.Style;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.Droid
 {
     public class CustomTypefaceSpan : MetricAffectingSpan
     {

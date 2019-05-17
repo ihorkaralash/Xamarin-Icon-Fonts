@@ -5,10 +5,9 @@ using Android.Runtime;
 using Android.Text;
 using Android.Util;
 using Android.Widget;
-using Plugin.Iconize.Droid;
 using Object = System.Object;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.Droid
 {
     [Register("Plugin.IconFonts.IconButton")]
     public class IconButton : Button, IIconText

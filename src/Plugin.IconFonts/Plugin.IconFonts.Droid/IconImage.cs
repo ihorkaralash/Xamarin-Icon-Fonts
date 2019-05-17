@@ -4,9 +4,8 @@ using Android.Graphics;
 using Android.Runtime;
 using Android.Util;
 using Android.Widget;
-using Plugin.Iconize.Droid;
 
-namespace Plugin.IconFonts
+namespace Plugin.IconFonts.Droid
 {
     [Register("Plugin.IconFonts.IconImage")]
     public class IconImage : ImageView

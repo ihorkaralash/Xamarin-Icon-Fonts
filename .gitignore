@@ -17,3 +17,7 @@ src/Plugin.IconFonts/packages/
 src/Plugin.IconFonts/Plugin.IconFonts.Android/bin/
 src/Plugin.IconFonts/Plugin.IconFonts.iOS/bin/
 src/Plugin.IconFonts/Plugin.IconFonts/obj/
+src/Plugin.IconFonts/Plugin.IconFonts/bin/
+src/Plugin.IconFonts/Plugin.IconFonts.Droid/obj/
+src/Plugin.IconFonts/Plugin.IconFonts.Droid/bin/
+src/Plugin.IconFonts/nuget.exe
