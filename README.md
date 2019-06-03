@@ -4,6 +4,8 @@ Use icon fonts in your Xamarin.Android and Xamarin.iOS applications!
 
 Based on https://github.com/jsmarcus/Iconize
 
+![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/android.png)
+
 ## Controls
 
 * IconButton (Button)
