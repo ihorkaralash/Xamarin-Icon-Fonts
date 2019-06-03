@@ -4,7 +4,7 @@ Use icon fonts in your Xamarin.Android and Xamarin.iOS applications!
 
 Based on https://github.com/jsmarcus/Iconize
 
-![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/android.png)
+![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/android.png)![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios.png)
 
 ## Controls
 
@@ -138,4 +138,16 @@ public class CustomIconLabel : IconLabel
 }
 ```
 
+**Xamarin.iOS (Unified)**  
 
+**Image**
+
+![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios-image.png)
+
+**Button**
+
+![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios-button.png)
+
+**Label**
+
+![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios-label.png)
