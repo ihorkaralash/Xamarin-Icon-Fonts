@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IconFonts</id>
+    <version>1.0.17</version>
+    <title>Icon fonts for Xamarin.Android and Xamarin.iOS</title>
+    <authors>Ihor Karalash</authors>
+    <owners>Ihor Karalash</owners>
+    <license type="expression">Apache-2.0</license>
+    <projectUrl>https://github.com/ihorkaralash/Xamarin-Icon-Fonts</projectUrl>
+    <iconUrl>https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/icon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Use icon fonts in your Xamarin.Android and Xamarin.iOS applications!</description>
+    <releaseNotes>See: https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/CHANGELOG.md</releaseNotes>
+    <copyright>Copyright 2019</copyright>
+    <tags>xamarin, icon fonts, plugin for xamarin, plugins, xamarin.android, xamarin.ios, icons, fonts, android, ios</tags>
+	<dependencies>
+         <group targetFramework="MonoAndroid10">
+			<dependency id="Xamarin.Android.Support.Compat" version="24.2.1" />
+         </group>
+         <group targetFramework="Xamarin.iOS10">
+         </group>
+       </dependencies>
+  </metadata>
+  <files>
+	<!-- iOS reference assemblies -->
+	<file src="Plugin.IconFonts.iOS\bin\Release\Plugin.IconFonts.iOS.dll" target="lib\Xamarin.iOS10" />
+
+	<!-- Android reference assemblies -->
+	<file src="Plugin.IconFonts.Droid\bin\Release\Plugin.IconFonts.Droid.dll" target="lib\MonoAndroid10" />
+    </files>
+</package>

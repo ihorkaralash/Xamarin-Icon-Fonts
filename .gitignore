@@ -21,3 +21,14 @@ src/Plugin.IconFonts/Plugin.IconFonts/bin/
 src/Plugin.IconFonts/Plugin.IconFonts.Droid/obj/
 src/Plugin.IconFonts/Plugin.IconFonts.Droid/bin/
 src/Plugin.IconFonts/nuget.exe
+nuget/nuget.exe
+src/IconFonts.Sample.Droid/bin/
+src/IconFonts.Sample.Droid/obj/
+src/IconFonts.Sample.iOS/bin/
+src/IconFonts.Sample.iOS/obj/
+src/packages/
+*.user
+src/Plugin.IconFonts.Droid/bin/
+src/Plugin.IconFonts.Droid/obj/
+src/Plugin.IconFonts.iOS/bin/
+src/Plugin.IconFonts.iOS/obj/

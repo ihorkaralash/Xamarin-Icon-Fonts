@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	<ScrollView
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent" 
+		android:layout_centerHorizontal="true">
+		<LinearLayout
+			android:orientation="vertical"
+			android:minWidth="25px"
+			android:minHeight="25px"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal">
+			<Plugin.IconFonts.IconImage
+				android:id="@+id/Image"
+				android:layout_width="50dp"
+				android:layout_height="50dp"
+				android:layout_marginTop="20dp"
+				android:layout_marginBottom="20dp"
+				app:Icon="fab-android"
+				app:IconColor="@android:color/black"/>
+			<Plugin.IconFonts.IconButton
+				android:id="@+id/GoogleButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:text="{fab-google-plus-g} Google"
+				android:textSize="20dp"
+				android:textColor="@android:color/white"
+				android:backgroundTint="@color/googleBackground"/>
+			<Plugin.IconFonts.IconButton
+				android:id="@+id/TwitterButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:text="{fab-twitter} Twitter"
+				android:textSize="20dp"
+				android:textColor="@android:color/white"
+				android:backgroundTint="@color/twitterBackground"/>
+			<Plugin.IconFonts.IconButton
+				android:id="@+id/FacebookButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:text="{fab-facebook-f} Facebook"
+				android:textSize="20dp"
+				android:textColor="@android:color/white"
+				android:backgroundTint="@color/facebookBackground"/>
+			<Plugin.IconFonts.IconButton
+				android:id="@+id/PinterestButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:text="{fab-pinterest} Pinterest"
+				android:textSize="20dp"
+				android:textColor="@android:color/white"
+				android:backgroundTint="@color/pinterestBackground"/>
+			<Plugin.IconFonts.IconButton
+				android:id="@+id/LinkedinButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:text="{fab-linkedin-in} Linkedin"
+				android:textSize="20dp"
+				android:textColor="@android:color/white"
+				android:backgroundTint="@color/linkedinBackground"/>
+			<Plugin.IconFonts.IconButton
+				android:id="@+id/WatsappButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:text="{fab-whatsapp} Watsapp"
+				android:textSize="20dp"
+				android:textColor="@android:color/white"
+				android:backgroundTint="@color/watsappBackground"/>
+			<Plugin.IconFonts.IconButton
+				android:id="@+id/GithubButton"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:paddingLeft="20dp"
+				android:paddingRight="20dp"
+				android:text="{fab-github} Github"
+				android:textSize="20dp"
+				android:textColor="@android:color/white"
+				android:backgroundTint="@color/githubBackground"/>
+			<Plugin.IconFonts.CustomIconLabel
+				android:id="@+id/Label"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Click on any button above {fas-level-up-alt}"
+				android:layout_marginTop="20dp"
+				android:textColor="@android:color/black"/>
+		</LinearLayout>
+	</ScrollView>
+</RelativeLayout>
