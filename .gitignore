@@ -32,3 +32,4 @@ src/Plugin.IconFonts.Droid/bin/
 src/Plugin.IconFonts.Droid/obj/
 src/Plugin.IconFonts.iOS/bin/
 src/Plugin.IconFonts.iOS/obj/
+*.nupkg
