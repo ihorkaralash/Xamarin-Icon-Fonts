@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>IconFonts</id>
-    <version>1.0.17</version>
+    <version>1.0.18</version>
     <title>Icon fonts for Xamarin.Android and Xamarin.iOS</title>
     <authors>Ihor Karalash</authors>
     <owners>Ihor Karalash</owners>
@@ -24,9 +24,9 @@
   </metadata>
   <files>
 	<!-- iOS reference assemblies -->
-	<file src="Plugin.IconFonts.iOS\bin\Release\Plugin.IconFonts.iOS.dll" target="lib\Xamarin.iOS10" />
+	<file src="..\src\Plugin.IconFonts.iOS\bin\Release\Plugin.IconFonts.iOS.dll" target="lib\Xamarin.iOS10" />
 
 	<!-- Android reference assemblies -->
-	<file src="Plugin.IconFonts.Droid\bin\Release\Plugin.IconFonts.Droid.dll" target="lib\MonoAndroid10" />
+	<file src="..\src\Plugin.IconFonts.Droid\bin\Release\Plugin.IconFonts.Droid.dll" target="lib\MonoAndroid10" />
     </files>
 </package>
