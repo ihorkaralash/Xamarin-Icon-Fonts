@@ -2,7 +2,7 @@
 
 Use icon fonts in your Xamarin.Android and Xamarin.iOS applications!
 
-Based on https://github.com/jsmarcus/Iconize
+Based on https://github.com/jsmarcus/Iconize with additional features like using several icons in a single button/label by specifying {icon-key} in text and ability to apply a custom style for them with Xamarin.Android & Xamarin.IOS
 
 ![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/android.png)![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios.png)
 
