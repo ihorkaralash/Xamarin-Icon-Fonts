@@ -6,6 +6,9 @@ Based on https://github.com/jsmarcus/Iconize with additional features like using
 
 ![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/android.png)![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/ios.png)
 
+## NuGet
+* Available on NuGet: [Icon.Fonts](https://www.nuget.org/packages/IconFonts) [![NuGet](https://img.shields.io/nuget/v/Icon.Fonts.svg?label=NuGet)](https://www.nuget.org/packages/IconFonts/)
+
 ## Controls
 
 * IconButton (Button)
