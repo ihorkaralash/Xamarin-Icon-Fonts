@@ -4,7 +4,7 @@ Use icon fonts in your Xamarin.Android and Xamarin.iOS applications!
 
 Based on https://github.com/jsmarcus/Iconize with additional features like using several icons in a single button/label by specifying {icon-key} in text and ability to apply a custom style for them with Xamarin.Android & Xamarin.IOS
 
-![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/android.png)![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios.png)
+![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/android.png)![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/ios.png)
 
 ## Controls
 
@@ -142,15 +142,15 @@ public class CustomIconLabel : IconLabel
 
 **Image**
 
-![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios-image.png)
+![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/ios-image.png)
 
 **Button**
 
-![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios-button.png)
+![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/ios-button.png)
 
 **Label**
 
-![alt text](https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/ios-label.png)
+![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/ios-label.png)
 
 **Custom style**
 
