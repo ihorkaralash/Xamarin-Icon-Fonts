@@ -7,7 +7,7 @@ Based on https://github.com/jsmarcus/Iconize with additional features like using
 ![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/android.png)![alt text](https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/ios.png)
 
 ## NuGet
-* Available on NuGet: [![NuGet](https://img.shields.io/nuget/v/IconFonts.svg?label=NuGet)](https://www.nuget.org/packages/IconFonts/)
+* Available on NuGet: [![NuGet](https://img.shields.io/nuget/v/IconFonts?label=NuGet)](https://www.nuget.org/packages/IconFonts/)
 
 ## Controls
 
