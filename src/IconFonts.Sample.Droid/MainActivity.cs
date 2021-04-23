@@ -2,7 +2,7 @@
 using Android.App;
 using Android.Graphics;
 using Android.OS;
-using Android.Support.V7.App;
+using AndroidX.AppCompat.App;
 using Plugin.IconFonts.Droid;
 
 namespace IconFonts.Sample.Droid

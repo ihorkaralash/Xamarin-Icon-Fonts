@@ -3,10 +3,10 @@ using Android.Content;
 using Android.Content.Res;
 using Android.Graphics;
 using Android.Graphics.Drawables;
-using Android.Support.V4.Content;
-using Android.Support.V4.Graphics.Drawable;
 using Android.Text;
 using Android.Util;
+using AndroidX.Core.Content;
+using AndroidX.Core.Graphics.Drawable;
 using R = Android.Resource;
 
 namespace Plugin.IconFonts.Droid
