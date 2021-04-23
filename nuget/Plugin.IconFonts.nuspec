@@ -2,13 +2,13 @@
 <package >
   <metadata>
     <id>IconFonts</id>
-    <version>1.0.27</version>
+    <version>1.1.5</version>
     <title>Icon fonts for Xamarin.Android and Xamarin.iOS</title>
     <authors>Ihor Karalash</authors>
     <owners>Ihor Karalash</owners>
     <license type="expression">Apache-2.0</license>
     <projectUrl>https://github.com/ihorkaralash/Xamarin-Icon-Fonts</projectUrl>
-    <iconUrl>https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/art/icon.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/ihorkaralash/Xamarin-Icon-Fonts/master/art/icon.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Use icon fonts in your Xamarin.Android and Xamarin.iOS applications!</description>
     <releaseNotes>See: https://github.com/ihorkaralash/Xamarin-Icon-Fonts/blob/master/CHANGELOG.md</releaseNotes>
@@ -16,7 +16,7 @@
     <tags>xamarin, icon fonts, plugin for xamarin, plugins, xamarin.android, xamarin.ios, icons, fonts, android, ios</tags>
 	<dependencies>
          <group targetFramework="MonoAndroid10">
-			<dependency id="Xamarin.Android.Support.Compat" version="24.2.1" />
+			<dependency id="Xamarin.AndroidX.AppCompat" version="1.2.0.7" />
          </group>
          <group targetFramework="Xamarin.iOS10">
          </group>
